@@ -1,0 +1,56 @@
+body {
+
+    color: white;
+}
+ p  {
+    color: #000;
+
+}
+
+header  {
+    color: #000;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+tr:hover {
+    background-color: #d9f2d9;
+}button {
+    cursor: pointer;
+}/* Advanced CSS selectors */
+
+/* 1. Descendant selector */
+section td {
+    padding: 10px;
+}
+
+/* 2. Position pseudo-class */
+tr:first-child {
+    font-weight: bold;
+}
+
+/* 3. Negation pseudo-class */
+input:not([type="submit"]) {
+    margin-bottom: 10px;
+}
+
+/* 4. Focus state */
+input:focus {
+    outline: 2px solid green;
+}
